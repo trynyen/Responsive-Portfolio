@@ -1,0 +1,269 @@
+/* Header styling section */
+* {
+    box-sizing: border-box;
+}
+
+#masthead {
+    position: fixed;
+    width: 100%;
+    margin: 0 0 30px;
+    padding: 20px;
+    overflow: auto;
+    color: white;
+    background: white;
+    border-bottom: 2px solid  #6f4752;
+}
+header {
+    display: block;
+}
+
+.top {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    max-width: 1200px;
+    clear: both;
+}
+
+.name {
+    position:absolute;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background-color: #e8869cba;
+    top:8%;
+    left: 6%;
+    padding: 10px 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav {
+    float: right;
+    margin-top: 25px;
+    box-sizing: border-box;
+    display: block;
+}
+nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 20px;
+    color: #666666;
+    text-decoration: none;
+    border-left: 1px solid #666666;
+}
+a {
+    color: #666666;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #eabec2;
+    color: #961656;
+}
+
+/* Body-All styling sections */
+
+body {
+    margin: 0px;
+}
+
+.wrapper {
+    background: url(https://images.unsplash.com/photo-1521347017846-273c8aae0fd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80)no-repeat center center;
+    background-size: cover;
+    height: 960px;
+    padding-top: 10%;
+    color: black;   
+}
+
+hr {
+    border: 1px dotted;
+    border-color: #98103f;
+    border-width: 80%;
+}
+
+
+/* Body-Index styling section */
+.content1 {
+    background-color: #e8869cba;
+    max-width: 50%;
+    height: 100%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.me {
+    float: left;
+    padding-right: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.quote {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Body-Contact styling section */
+.content2 {
+    color: #751f37;
+    background-color: #e8869cba;
+    max-width: 50%;
+    height: 100%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 25px;
+    line-height: 23px;
+}
+
+input, textarea {
+    width: 95%;
+}
+
+.submit {
+    background-color:#eabec2;
+    width: 80px;
+    text-align: center;
+}
+
+/* Body-Portfolio styling section */
+.content3 {
+    color: #98103f;
+    background-color: #e8869cba;
+    max-width: 50%;
+    height: 100%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 25px;
+    line-height: 23px;
+}
+
+.container {
+    float: left;
+    position: relative;
+    max-width: 180px;
+    margin: 20px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    background-color: black;
+    color:#e8869cba;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Footer styling section */
+.footer {
+    background-color:#f2c3cc;
+    height: 80px;
+    border-top: 5px solid;
+    border-width: 100%;
+    border-top-color: #6f4752;
+}
+
+.quote {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Media screen styling section */
+@media screen and (max-width: 980px) {
+
+.wrapper {
+    padding: 1%;
+    padding-top: 15%;
+    margin: 0px;
+}
+  
+.content1, .content2, .content3 {
+    max-width: 90%;
+    margin: 0 auto;  
+}
+
+.content1 {
+    height: 100%;
+}
+
+.content3 {
+    height: 100%;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+.wrapper {
+    padding: 1%;
+    padding-top: 20%;
+    margin: 0px;
+}
+      
+.content1, .content2, .content3 {
+    max-width: 90%;
+    margin: 0 auto;  
+}
+
+.content1 {
+    height: 100%;
+}
+
+.content3 {
+    height: 100%;
+}
+    
+}
+.header{
+    max-width: 768px auto;
+}
+
+@media screen and (max-width: 640px) {
+
+.wrapper {
+    padding: 1%;
+    padding-top: 30%;
+    margin: 0px;
+}
+          
+.content1, .content2, .content3 {
+    max-width: 100%;
+    margin: 0 auto; 
+}
+
+.content1 {
+    height: 100%;
+}
+
+.content3 {
+    height: 100%;
+}
+        
+
+.header{
+    max-width: 640px auto;
+}
+
+.name {
+    position: relative;
+    max-width: 100%;
+    left:0;
+}
+
+nav {
+    float: unset;
+    margin-left: 25%;
+}
